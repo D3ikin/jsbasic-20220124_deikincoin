@@ -1,3 +1,6 @@
+import createElement from "../../assets/lib/create-element.js";
+import escapeHtml from "../../assets/lib/escape-html.js";
+
 export default class ProductCard {
   constructor(product) {
     this.product = product;
